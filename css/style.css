@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+
 .container {
   max-width: 1366px;
   padding: 10px;
@@ -15,6 +16,9 @@
 /* utilities */
 .bg-dark {
   background-color: #333;
+}
+.clr{
+    clear:both;
 }
 /* end of utilities */
 
@@ -209,10 +213,11 @@ p {
   height: 100px;
   margin: auto;
 }
-.foot {
+.footer-text {
+  display: block;
   width: fit-content;
   color: #f3f3f3;
   font-weight: bold;
   margin: auto;
-  padding-top: 50px;
+  padding: 30px;
 }
