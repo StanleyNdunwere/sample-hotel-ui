@@ -204,8 +204,15 @@ p {
   background-color: azure;
 }
 
-.features img{
-    width:100px;
-    height:100px;
-    margin:auto;
+.features img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.foot {
+  width: fit-content;
+  color: #f3f3f3;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
 }
