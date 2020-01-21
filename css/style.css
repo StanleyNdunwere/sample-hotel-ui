@@ -68,6 +68,9 @@ p {
   font-family: "baloo bhai", cursive;
   font-size: 35px;
 }
+#navbar h1 a:hover{
+    color:gold;
+}
 
 #navbar ul {
   list-style: none;
@@ -220,4 +223,42 @@ p {
   font-weight: bold;
   margin: auto;
   padding: 30px;
+}
+
+/* about page */
+
+#about-section{
+    background-color: rgba(211, 211, 211, 0);
+}
+
+.about-body{
+    height: 400px;
+}
+
+
+.text-container{
+    width:50%;
+    max-width: fit-content;
+    padding:20px 60px 0 60px;
+    margin:auto;
+    float:left;
+}
+
+.about-body h2 {
+    margin-top:20px;
+    font-family: "baloo bhai", cursive;
+    font-size:50px;
+}
+.about-body h2 span {
+    color:gold;
+}
+
+.about-image-container{
+    margin: 100px 200px 100px 50px;
+    width:25%;
+    border-radius: 50%;
+    height: 400px;
+    float:right;
+    background-image: url(/images/hotel-view.png);
+    background-size: cover;
 }
