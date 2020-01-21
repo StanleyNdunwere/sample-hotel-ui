@@ -262,3 +262,94 @@ p {
     background-image: url(/images/hotel-view.png);
     background-size: cover;
 }
+
+
+.testimonial-bg{
+  background-image: url(/images/hotel-gallery.png);
+  background-size: cover;
+  margin:0;
+  padding:60px;
+}
+.testimonial-one, .testimonial-two{
+  padding:40px;
+  height: 200px;
+  max-width:fit-content;
+  width:1300px;
+  margin:auto;
+  background-color: #9b6d43f7;
+}
+
+.testimonial-one img,  .testimonial-two img{
+  max-width:10%;
+  border-radius: 50%;
+  float:left;
+  margin:0 20px 0 20px;
+}
+
+.testimonial-one{
+  margin-bottom: 70px;
+}
+.testimonial-one p , .testimonial-two p{
+  width:80%;
+  float:left;
+  color:whitesmoke;
+}
+
+.testimonial-bg h2{
+  color:white;
+  font-family: "Baloo bhai", cursive;
+  font-size:50px;
+  padding-bottom: 40px ;
+  text-align: center;
+}
+
+
+.form-div{
+  padding: 30px;
+  max-width:fit-content;
+  width:800px;
+
+}
+.div-input label, .div-input input{
+  padding-bottom:20px;
+  padding-top:20px;
+  display: block;
+  border:none;
+  width:500px;
+}
+.div-input input{
+  background-color: wheat;
+  border: 1px solid gray;
+  border-radius:10px;
+  padding:5px;
+  font-size: 20px;
+}
+
+.form-div h2{
+  font-family: "baloo bhai" , cursive;
+  font-size:50px;
+}
+
+.form-div p {
+  font-weight:bold;
+}
+.form-div span{
+  color:gold;
+}
+
+#area{
+  height:100px;
+}
+.form-div button{
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top:20px;
+}
+
+#features-c {
+  height: 180px;
+}
