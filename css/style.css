@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai|Raleway&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1366px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+/* utilities */
+.bg-dark {
+  background-color: #333;
+}
+/* end of utilities */
+
+button {
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.7em;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  padding: 10px 5px 10px 5px;
+}
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #333;
+  color: #f3f3f3;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #f3f3f3;
+}
+#navbar h1 {
+  float: left;
+  padding: 20px;
+  font-family: "baloo bhai", cursive;
+  font-size: 35px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
+
+#show-case {
+  background-image: url(/images/hotel.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 685px;
+  padding: 20px;
+}
+
+#content-showcase {
+  text-align: center;
+  width: 900px;
+  max-width: fit-content;
+  margin: auto;
+  background-color: #22222270;
+  padding: 20px;
+  margin-top: 170px;
+  border-radius: 10px;
+}
+
+#content-showcase p,
+#content-showcase h2 {
+  color: white;
+}
+
+#content-showcase h2 {
+  font-family: "baloo bhai", cursive;
+  font-size: 35px;
+}
+
+#content-showcase h2 span {
+  color: gold;
+}
+
+#show-case button {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#show-case button:hover {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
+
+.info-img {
+  height: 500px;
+  float: left;
+  width: 50%;
+  background-image: url(/images/hotels1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-content {
+  height: 500px;
+  max-height: fit-content;
+  float: right;
+  width: 50%;
+}
+.info-content p {
+  color: white;
+}
+
+.info-content h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "baloo bhai", cursive;
+}
+.info-content h2 span {
+  color: gold;
+}
+
+.content-text {
+  width: 80%;
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+  padding-top: 130px;
+}
+.content-text button {
+  background-color: gold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.content-text button:hover {
+  background-color: orangered;
+  color: black;
+}
+
+.features {
+  height: 500px;
+}
+
+.features div {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 40px;
+}
+
+.one {
+  background-color: azure;
+}
+
+.two {
+  background-color: gold;
+}
+
+.three {
+  background-color: azure;
+}
+
+.features img{
+    width:100px;
+    height:100px;
+    margin:auto;
+}
