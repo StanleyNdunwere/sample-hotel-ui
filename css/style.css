@@ -256,8 +256,8 @@ p {
 }
 
 .about-image-container{
-    margin: 100px 200px 100px 50px;
-    width:25%;
+    margin: 150px 150px 150px 0px;
+    width:30%;
     border-radius: 50%;
     height: 400px;
     float:right;
@@ -307,7 +307,7 @@ p {
 
 
 .form-div{
-  padding: 30px;
+  padding: 50px 150px;
   max-width:fit-content;
   width:800px;
 
@@ -320,11 +320,12 @@ p {
   width:500px;
 }
 .div-input input{
-  background-color: wheat;
+  background-color: #fff9ed;
   border: 1px solid gray;
   border-radius:10px;
-  padding:5px;
-  font-size: 20px;
+  padding:10px 10px 10px 10px;
+  font-size: 16px;
+  font-family: "raleway", tahoma;
 }
 
 .form-div h2{
